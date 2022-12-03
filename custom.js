@@ -57,14 +57,14 @@ document.addEventListener('DOMContentLoaded',function(event){
 
   $('.your-class').slick({
     dots: false,
+    prevArrow: false,
+    nextArrow: false,
     infinite: true,
     speed: 300,
     slidesToShow: 4,
+        
     slidesToScroll: 4,
-    autoplay: true,
-   autoplaySpeed: 3000,
-   prevArrow: false,
-   nextArrow: false,
+    
     responsive: [
       {
         breakpoint: 1024,
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded',function(event){
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {
